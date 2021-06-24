@@ -1,4 +1,8 @@
-# aws-eks-project!
-[two-tier-application](https://user-images.githubusercontent.com/70263015/123253061-b1ccd800-d4f5-11eb-96ac-49fedddf0fc1.png)
+AWS-EKS-PROJECT
 
-Deploying an EKS solution
+The following project builds a two-tier web application that  is hosted in Kubernetes and is highly available and fault tolerant. 
+The application consists of a deployed solution that intergrates fronted to the backend facilitating connectivity between the two.
+
+    STEPS - Frontend 
+    Launch
+    
