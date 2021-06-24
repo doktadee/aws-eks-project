@@ -25,5 +25,6 @@ STEPS - Backend
   
         1.Provisioning a HTTPGetliveness Probe config to conduct Health-checks both for frontend and backend.
         2.Configuring HPA(Horizontal Pod AutoScaler) for frontend to auto-scale based on the CPU utilization.
-        3.Provisioning an ALB(Application Load Balancer)for usage by the frontend service by use of an automated script and  custom ingress configuration.
+        3.Provisioning an ALB(Application Load Balancer)for usage by the frontend service by use of 
+          an automated script and a custom ingress configuration.
         
