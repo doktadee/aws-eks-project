@@ -6,6 +6,7 @@ The application consists of a deployed solution that intergrates fronted to the 
 ![two-tier-application](https://user-images.githubusercontent.com/70263015/123259424-1e97a080-d4fd-11eb-98d2-3c1878bc43a3.png)
 
 STEPS- Frontend
+    
     Setup and Launch the Kubernetes cluster
     Deploy source code to Kubernetes cluster
     Run the docker commands to build, tag and push to docker hub.
