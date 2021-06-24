@@ -7,8 +7,23 @@ The application consists of a deployed solution that intergrates fronted to the 
 
 STEPS- Frontend
     
-         1.Setup and Launch the Kubernetes cluster
-         2.Deploy source code to Kubernetes cluster
-         3.Run the docker commands build, tag and push to docker hub.
-         4.Create a front-end deployment configuration file.
-    
+         1.Setup and Launching the Kubernetes cluster
+         2.Deploying source code to Kubernetes cluster
+         3.Runnnig the docker commands build, tag and push to docker hub.
+         4.Creating a front-end deployment configuration file.
+
+STEPS - Backend
+
+
+          1.Deploying image to Kubernetes cluster.
+          2.Creating a backened deployment configuration file.
+          3.configuring frontend to connect to backend.
+          4.Re-Testing connection to backend from the frontend.
+  
+  
+  Features
+  
+        1.Provisioning a HTTPGetliveness Probe config to conduct Health-checks both for frontend and backend.
+        2.Configuring HPA(Horizontal Pod AutoScaler) for frontend to auto-scale based on the CPU utilization.
+        3.Provisioning an ALB(Application Load Balancer)for usage by the frontend service by use of an automated script and  custom ingress configuration.
+        
