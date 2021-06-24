@@ -7,8 +7,8 @@ The application consists of a deployed solution that intergrates fronted to the 
 
 STEPS- Frontend
     
-    Setup and Launch the Kubernetes cluster
-    Deploy source code to Kubernetes cluster
-    Run the docker commands to build, tag and push to docker hub.
-    Create a front-end deployment configuration file.
+ 1.Setup and Launch the Kubernetes cluster
+ 2.Deploy source code to Kubernetes cluster
+ 3.Run the docker commands build, tag and push to docker hub.
+ 4.Create a front-end deployment configuration file.
     
